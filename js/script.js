@@ -13,7 +13,6 @@ if (navigator.serviceWorker) {
   })
 }
 
-
 /**
  * this function updates slider value
  */

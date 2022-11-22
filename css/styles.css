@@ -25,29 +25,29 @@ body {
   background-color: lavenderblush;
 }
 
-#col-1{
-   position: relative;
+#col-1 {
+  position: relative;
   width: 50%;
   float: left;
   height: 100%;
 }
 
-#col-2{
-   position: relative;
+#col-2 {
+  position: relative;
   width: 50%;
   float: right;
   height: 100%;
 }
 
-#slider-value{
+#slider-value {
   text-align: center;
 }
 
-h2{
+h2 {
   color: #7a008a;
 }
 
-h4{
+h4 {
   color: #7a008a;
 }
 
