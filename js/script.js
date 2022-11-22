@@ -13,6 +13,14 @@ if (navigator.serviceWorker) {
   })
 }
 
+
+/**
+ * this function updates slider value
+ */
+function updateSliderValue(valueFromSlider) {
+  document.getElementById("slider-value").innerHTML = valueFromSlider
+}
+
 /**
  * this function
  */
