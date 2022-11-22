@@ -24,5 +24,22 @@ function updateSliderValue(valueFromSlider) {
  * this function
  */
 function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+  const age = parseInt(document.getElementById("slider").value)
+  
+ if (age >= 17) {
+    document.getElementById("answer").innerHTML =
+      "you can watch an R rated movie alone!"
+  }
+  else if (age >= 13) {
+    document.getElementById("answer").innerHTML =
+      "you can watch a PG-13 rated movie alone!"
+  }
+  else if (age >= 5) {
+    document.getElementById("answer").innerHTML =
+      "you can watch a PG rated movie alone!"
+  }
+  else {
+    document.getElementById("answer").innerHTML =
+      "you're too young to do anything!"
+  }
 }
