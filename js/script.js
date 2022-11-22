@@ -25,20 +25,17 @@ function updateSliderValue(valueFromSlider) {
  */
 function myButtonClicked() {
   const age = parseInt(document.getElementById("slider").value)
-  
- if (age >= 17) {
+
+  if (age >= 17) {
     document.getElementById("answer").innerHTML =
       "you can watch an R rated movie alone!"
-  }
-  else if (age >= 13) {
+  } else if (age >= 13) {
     document.getElementById("answer").innerHTML =
       "you can watch a PG-13 rated movie alone!"
-  }
-  else if (age >= 5) {
+  } else if (age >= 5) {
     document.getElementById("answer").innerHTML =
       "you can watch a PG rated movie alone!"
-  }
-  else {
+  } else {
     document.getElementById("answer").innerHTML =
       "you're too young to do anything!"
   }
