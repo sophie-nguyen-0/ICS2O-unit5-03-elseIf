@@ -61,10 +61,10 @@
         <br />
         <div id="col-1">
           <h2>What movies <br />can you watch?</h2>
-          <h4>enter your age:</h4>
-
           <!-- Default Slider -->
-          <input
+          <label>
+            <h4>enter your age:</h4>
+            <input
             id="slider"
             class="mdl-slider mdl-js-slider"
             type="range"
@@ -74,6 +74,7 @@
             tabindex="0"
             onchange="updateSliderValue(this.value)"
           />
+          </label>
           <br />
           <div id="slider-value"></div>
           <br />
@@ -83,8 +84,8 @@
           >
             button
           </button>
-          <br />
-          <br />
+          <br>
+          <br>
           <div id="answer"></div>
         </div>
         <div id="col-2">
